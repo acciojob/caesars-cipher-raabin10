@@ -47,7 +47,7 @@ function rot13(encodedStr) {
   }
 
   // Join the decoded characters into a string
-  const decodedStr = decodedArr.join(" ");
+  const decodedStr = decodedArr.join("");
   
   return decodedStr; 
 }
